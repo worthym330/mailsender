@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nestjs-app
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run start:prod
+    repo: https://github.com/worthym330/mailsender
