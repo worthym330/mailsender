@@ -22,7 +22,7 @@ export class EmailService {
     const { name, email, mobile } = formData;
     console.log(formData);
     // Email recipient and subject
-    const to = 'mandalbasant330@gmail.com';
+    const to = 'spikereach@gmail.com';
     const subject = 'New Enquiry Form Submission';
 
     // Create email body
